@@ -59,7 +59,7 @@ export default function Layout({ children, home }) {
             </div>
 
             <div className={`${styles.headerSocials}`}> 
-                <Link href="https://github.com/riteshpakala">
+                {/* <Link href="https://github.com/riteshpakala">
                   <Image
                     priority
                     src="/images/github.png"
@@ -85,7 +85,7 @@ export default function Layout({ children, home }) {
                     width={20}
                     alt={name}
                   />
-                </Link>
+                </Link> */}
                 {/* <Link href="https://youtube.com/pexavc">
                   <Image
                     priority
@@ -126,7 +126,7 @@ export default function Layout({ children, home }) {
 
         <div className={`${styles.footer}`}>
           <span className={`${utilStyles.headingSm}`}> loom.nyc </span>
-          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm2}`}> A.G. Cook - Idyll </span>
+          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm2}`}> YSL Summer '24 </span>
           
         </div>
         <div className={`${styles.player}`}>
@@ -134,7 +134,7 @@ export default function Layout({ children, home }) {
             play
           </button>
         </div>
-        <audio src="/idyll.mp3" autoPlay loop hidden />
+        <audio src="/ysl.mp3" autoPlay loop hidden />
       </div>
     </div>
   );
