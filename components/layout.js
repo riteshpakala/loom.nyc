@@ -24,6 +24,7 @@ export default function Layout({ children, home }) {
             siteTitle,
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta http-equiv="Content-Language" content="en"></meta>
@@ -126,7 +127,7 @@ export default function Layout({ children, home }) {
 
         <div className={`${styles.footer}`}>
           <span className={`${utilStyles.headingSm}`}> loom.nyc </span>
-          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm2}`}> YSL Summer '24 </span>
+          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm3}`}> YSL Summer '24 - SebastiAn </span>
           
         </div>
         <div className={`${styles.player}`}>

@@ -35,6 +35,11 @@
   line-height: 1.5;
 }
 
+.headingSm3 {
+  font-size: 0.5rem;
+  line-height: 1.5;
+}
+
 .underline {
   text-decoration: underline;
 }
