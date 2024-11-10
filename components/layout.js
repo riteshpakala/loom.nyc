@@ -137,6 +137,12 @@ export default function Layout({ children, home }) {
         </div>
         <audio src="/ysl.mp3" autoPlay loop hidden />
       </div>
+
+      <div className={`${styles.overlay}`}>
+        <div className={`${styles.popup}`}>
+        <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm}`}> permanence in design & form </span>
+        </div>
+      </div>
     </div>
   );
 }
