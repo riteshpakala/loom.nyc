@@ -127,7 +127,7 @@ export default function Layout({ children, home }) {
 
         <div className={`${styles.footer}`}>
           <span className={`${utilStyles.headingSm}`}> loom.nyc </span>
-          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm3}`}> YSL Summer '24 - SebastiAn </span>
+          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm3}`}> YSL Winter '24 - SebastiAn </span>
           
         </div>
         <div className={`${styles.player}`}>
