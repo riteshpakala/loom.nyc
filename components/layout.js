@@ -135,7 +135,7 @@ export default function Layout({ children, home }) {
             play
           </button>
         </div>
-        <audio src="/ysl.mp3" autoPlay loop hidden />
+        <audio src="/ysl.m4a" autoPlay loop hidden />
       </div>
 
       <div className={`${styles.overlay}`}>
