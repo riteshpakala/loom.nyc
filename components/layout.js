@@ -140,7 +140,7 @@ export default function Layout({ children, home }) {
 
       <div className={`${styles.overlay}`}>
         <div className={`${styles.popup}`}>
-        <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm}`}> permanence in design & form </span>
+        <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm}`}> permanence </span>
         </div>
       </div>
     </div>
