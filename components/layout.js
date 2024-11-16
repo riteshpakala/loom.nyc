@@ -127,7 +127,7 @@ export default function Layout({ children, home }) {
 
         <div className={`${styles.footer}`}>
           <span className={`${utilStyles.headingSm}`}> loom.nyc </span>
-          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm3}`}> Dance - Rebecca & Fiona </span>
+          <span className={`${utilStyles.dandelionText} ${utilStyles.headingSm3}`}> YSL - SebastiAn </span>
           
         </div>
         <div className={`${styles.player}`}>
@@ -135,7 +135,7 @@ export default function Layout({ children, home }) {
             play
           </button>
         </div>
-        <audio src="/dance.mp3" autoPlay loop hidden />
+        <audio src="/ysl.mp3" autoPlay loop hidden />
       </div>
 
       <div className={`${styles.overlay}`}>
